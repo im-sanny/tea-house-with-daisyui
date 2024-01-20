@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!-- tailwind and daisyui -->
+        
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/304c7664cf.js" crossorigin="anonymous"></script>
+    <!-- tailwind custom color -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <style>
+    .font-manrope{
+            font-family: 'Manrope', sans-serif;
+    }
+    </style>
+
+</head>
+
+<body class=".font-manrope">
+    <header class="conatiner mx-auto">
+        <div class="hero min-h-screen">
+            <div class="hero-content flex-col lg:flex-row">
+             
+              <div>
+                <h1 class="text-5xl font-extrabold">It's good <br>
+                    tea time at The <br>
+                     Tea House</h1>
+                <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn btn-primary">Get Started</button>
+              </div>
+
+              <div>
+                <img src="images/banner.png" class="lg:max-w-sm" />
+                <!-- rating badge -->
+                <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 h-16 w-60 rounded-lg">
+                    <i class="fa-solid fa-star text-yellow-400 text-3xl"></i>
+                    <div >
+                        <h3 class="text-3xl">5.00</h3>
+                        <p>Trust Pilot Ratings</p>
+                    </div>
+                </div>
+              </div>
+             
+            </div>
+        </div>
+    </header>
+    <main class="conatiner mx-auto">
+        <!-- featured section -->
+        <section class="text-center">
+            <h2></h2>
+
+        </section>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
